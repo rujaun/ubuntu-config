@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install clang cmake alsa-lib libpulse-dev libiw-dev libmpd-dev openssl libcurl14-openssl-dev
+sudo apt install clang cmake libasound2 libasound2-data libpulse-dev libiw-dev libmpd-dev openssl curl
 
 git clone --recursive https://github.com/polybar/polybar
 cd polybar
