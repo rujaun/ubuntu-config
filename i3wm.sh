@@ -13,3 +13,5 @@ make
 sudo make install
 cd ..
 sudo rm -r i3
+
+sudo apt install i3status
