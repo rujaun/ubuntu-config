@@ -4,7 +4,7 @@ echo -e "\nSWAP file size in MiB: (0 for no swap): "
 
 read SWAP
 
-if (( "$SWAP" > 0 )); then
+if [ "$SWAP" = "Y" ]; then
 	echo -e "\nCreating SWAP file:"
 	cd /
 	sudo dd if=/dev/zero of=swapfile bs=1M count="$SWAP" status=progress
