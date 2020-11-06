@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sudo systemctl disable display-manager.service
-sudo systemctl disable gdm3.service
+#sudo systemctl disable display-manager.service
+#sudo systemctl disable gdm3.service
 
-cd ~/
-cd ./de-sources
+sudo apt install build-essential libpam0g-dev libxcb-xkb-dev
+
 git clone https://github.com/nullgemm/ly.git
 cd ly
 make github
