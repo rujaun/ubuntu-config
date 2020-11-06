@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt install -y xorg
+sudo apt-get install xorg xinit --no-install-recommends --no-install-suggests
