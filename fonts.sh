@@ -21,5 +21,5 @@ if [ "$FONTS" = "Y" ]; then
 	sudo cp ./WinFonts/* /usr/share/fonts/WinFonts/
 	sudo chmod 644 /usr/share/fonts/WinFonts/*
 	fc-cache --force
-	sudo cp ../config/.local.conf /etc/fonts/.local.conf
+	sudo cp ~/popinstall/config/.local.conf /etc/fonts/.local.conf
 fi

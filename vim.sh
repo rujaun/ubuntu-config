@@ -23,8 +23,8 @@ if [ "$VIMRC" = "Y" ]; then
 		echo -e "\n$FILE exists."
 
 		rm ~/.vimrc
-		cp ../config/.vimrc ~/.vimrc
+		cp ~/popinstall/config/.vimrc ~/.vimrc
 	else
-		cp ../config/.vimrc ~/.vimrc
+		cp ~/popinstall/config/.vimrc ~/.vimrc
 	fi
 fi
