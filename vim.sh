@@ -10,6 +10,8 @@ if [ "$VIMPLUG" = "Y" ]; then
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
+echo -e "\nInstall .bashrc? (Y/N): "
+
 read VIMRC
 
 if [ "$VIMRC" = "Y" ]; then

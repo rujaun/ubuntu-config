@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd ~/
-cd ./de-sources
 git clone --recursive https://github.com/polybar/polybar
 cd polybar
 mkdir build
