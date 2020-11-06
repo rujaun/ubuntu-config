@@ -15,4 +15,5 @@ cd ..
 sudo rm -r i3
 
 sudo apt install i3status
+sudo apt install rofi
 sudo apt install lm-sensors

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt install -y vim htop neofetch rxvt-unicode
+sudo apt install -y vim htop neofetch rxvt-unicode arandr
