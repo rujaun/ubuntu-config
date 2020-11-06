@@ -15,5 +15,6 @@ if [ "$SWAP" = "Y" ]; then
 	sudo touch /etc/sysctl.d/99-swappiness.conf
 	sudo echo "vm.swappiness=10" >> /etc/sysctl.d/99-swappiness.conf
 else
+	sudo touch /etc/sysctl.d/99-swappiness.conf
 	sudo echo "vm.swappiness=0" >> /etc/sysctl.d/99-swappiness.conf
 fi
