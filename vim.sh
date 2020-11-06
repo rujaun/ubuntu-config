@@ -23,8 +23,8 @@ if [ "$VIMRC" = "Y" ]; then
 		echo -e "\n$FILE exists."
 
 		rm ~/.vimrc
-		cp ./.vimrc ~/.vimrc
+		cp ../config/.vimrc ~/.vimrc
 	else
-		cp ./.vimrc ~/.vimrc
+		cp ../config/.vimrc ~/.vimrc
 	fi
 fi
