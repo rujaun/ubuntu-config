@@ -18,13 +18,6 @@ if [ "$VIMRC" = "Y" ]; then
 
 	echo -e "\nChecking if .vimrc exists..."
 
-	FILE=~/.vimrc
-	if [[ -f "$FILE" ]]; then
-		echo -e "\n$FILE exists."
-
-		rm ~/.vimrc
-		cp ~/popinstall/config/.vimrc ~/.vimrc
-	else
-		cp ~/popinstall/config/.vimrc ~/.vimrc
-	fi
+	rm ~/.vimrc
+	cp ~/popinstall/config/.vimrc ~/.vimrc
 fi
