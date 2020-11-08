@@ -10,4 +10,4 @@ rofi.padding: 50
 #DESK rofi.font Iosevka Nerd Font 12
 rofi.separator-style: none
 rofi.hide-scrollbar: true
-rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+rofi.theme: ~/.config/rofi/one-dark.rasi
