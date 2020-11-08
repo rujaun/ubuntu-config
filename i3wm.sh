@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 sudo apt install -y build-essential libpam0g-dev libxcb-xkb-dev libxcb1-dev \
 					libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev \
 					libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev \
