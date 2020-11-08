@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Remove swap file Ubuntu Server creates by default
+FILE=/swap.img
+if test -f "$FILE"; then
+    echo "$FILE exists."
+  	sudo swapoff -v "$FILE"
+  	sudo sed -i '$ d' /etc/fstab
+  	sudo rm "$FILE"
+fi
+
 echo -e "\nSWAP file size in MiB: (0 for no swap): "
 
 read SWAP
