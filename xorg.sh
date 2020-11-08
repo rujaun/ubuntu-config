@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo apt-get install xorg xinit --no-install-recommends --no-install-suggests
+sudo apt install rxvt-unicode
+sudo apt install xorg xinit --no-install-recommends --no-install-suggests
 
 # Disable touchpad while typing
 sudo tee -a /etc/X11/xorg.conf.d/80-touchpad.conf <<EOF
