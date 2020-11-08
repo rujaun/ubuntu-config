@@ -13,6 +13,7 @@ cp -r config/i3status/* ~/.config/i3status/
 cp -r config/wal/* ~/.config/wal/
 cp -r config/picom/* ~/.config/picom/
 cp -r config/displays/* ~/.config/displays/
+cp -r config/vim/* ~/.vimrc
 
 
 sudo cp -r config/fonts/* /etc/fonts/.local.conf
