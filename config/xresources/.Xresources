@@ -1,5 +1,3 @@
-! Custom
-! Original theme https://github.com/nathanbuchar/atom-one-dark-terminal
 *.foreground:    #ABB2BF
 *.background:    #1E2127
 *.cursorColor:   #5C6370
@@ -29,3 +27,7 @@
 ! Blanco
 *.color7:        #ABB2BF
 *.color15:       #FFFFFF
+
+
+xterm*faceName: Source Code Pro for Powerline Regular
+xterm*faceSize: 12

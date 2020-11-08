@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install rxvt-unicode
+sudo apt install xterm
 sudo apt install xorg xinit --no-install-recommends --no-install-suggests
 
 # Disable touchpad while typing
