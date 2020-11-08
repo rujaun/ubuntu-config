@@ -21,4 +21,3 @@ sudo rm -r i3
 
 sudo apt install i3status i3lock
 sudo apt install rofi
-sudo apt install lm-sensors
