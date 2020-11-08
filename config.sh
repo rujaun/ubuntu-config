@@ -14,6 +14,7 @@ cp -r config/wal/* ~/.config/wal/
 cp -r config/picom/* ~/.config/picom/
 cp -r config/displays/* ~/.config/displays/
 cp -r config/vim/.vimrc ~/.vimrc
+cp -r config/xresources/.Xresources ~/.Xresources
 
 
 sudo cp -r config/fonts/.local.conf /etc/fonts/.local.conf

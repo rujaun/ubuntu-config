@@ -222,4 +222,5 @@ client.background       $bg
 exec_always --no-startup-id killall -q picom
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
-exec_always --no-startup-id wal -i ~/Wallpapers/wall1.jpg &
+exec_always --no-startup-id feh --bg-scale ~/Wallpapers/wall1.jpg &
+#exec_always --no-startup-id wal -i ~/Wallpapers/wall1.jpg &
