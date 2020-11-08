@@ -29,5 +29,5 @@
 *.color15:       #FFFFFF
 
 
-xterm*faceName: Source Code Pro for Powerline Regular
+xterm*faceName: SauceCodePro Nerd Font Regular
 xterm*faceSize: 10
