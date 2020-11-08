@@ -54,7 +54,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Lock screen with i3lock
-bindsym $mod+Shift+x exec i3lock
+bindsym $mod+Shift+x exec i3lock --color "$bg"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
