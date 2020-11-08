@@ -19,6 +19,11 @@ font pango:monospace 8
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
+# Gaps
+# You can also use any non-zero value if you'd like to have a border
+# Uncomment this to enable gaps
+# for_window [class=".*"] border pixel 0
+
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
