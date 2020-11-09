@@ -208,8 +208,8 @@ bar {
 }
 
 # i3blocks configs
-bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
-bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+# bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+# bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use
