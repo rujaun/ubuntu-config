@@ -44,13 +44,13 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 & # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 & # decrease screen brightness
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec playerctl play-pause &
+bindsym XF86AudioNext exec playerctl next &
+bindsym XF86AudioPrev exec playerctl previous &
 
 # Lock screen with i3lock
 bindsym $mod+Shift+x exec i3lock-fancy -gpf Noto Sans Regular Nerd -- scrot -z
