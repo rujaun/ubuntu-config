@@ -213,9 +213,9 @@ bindsym $mod+r mode "resize"
 #client.background       $bg
 
 set $bg-color                   #282c34
-set $active-color               #f2f7ff
+set $active-color               #98c379
 set $inactive-bg-color          #61afef
-set $text-color                 #cbced4
+set $text-color                 #f2f7ff
 set $inactive-text-color        #979eab
 set $urgent-bg-color            #be5046
 
