@@ -1,4 +1,5 @@
 #!/bin/bash
+
 intern=LVDS1
 extern=DP1
 
