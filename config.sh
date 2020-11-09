@@ -27,6 +27,3 @@ cp -r config/.bashrc ~/.bashrc
 cp -r config/gnome-keyring/launch.sh ~/.config/gnome-keyring/launch.sh
 sudo cp -r config/fonts/.local.conf /etc/fonts/.local.conf
 
-
-#cd ./config/i3blocks
-#git clone https://github.com/cytopia/i3blocks-modules
