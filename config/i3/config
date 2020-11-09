@@ -213,6 +213,7 @@ bindsym $mod+r mode "resize"
 #client.background       $bg
 
 set $bg-color                   #282c34
+set $active-color               #98c379
 set $inactive-bg-color          #61afef
 set $text-color                 #cbced4
 set $inactive-text-color        #979eab
@@ -227,8 +228,8 @@ bar {
                 separator       $inactive-bg-color
                 statusline      $text-color
                 #                       border                  background              text
-                focused_workspace       $bg-color               $bg-color               $text-color
-                inactive_workspace      $inactive-bg-color      $inactive-bg-color      $inactive-text-color
+                focused_workspace       $active-color           $active-color           $text-color
+                inactive_workspace      $bg-color               $bg-color               $inactive-text-color
                 urgent_workspace        $urgent-bg-color        $urgent-bg-color        $text-color
         }
         font pango:NotoSans Nerd Font Regular 8, pango:FontAwesome 8
