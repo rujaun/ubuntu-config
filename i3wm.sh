@@ -24,5 +24,5 @@ sudo rm -r i3
 
 
 sudo apt install i3lock-fancy
-sudo apt install i3status
+sudo apt install i3blocks
 sudo apt install rofi
