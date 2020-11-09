@@ -199,6 +199,10 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         position top
+        colors {
+                background #282c34
+                separator #61afef
+        }
         font pango:NotoSans Nerd Font Regular 8, pango:FontAwesome 8
         status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 }
