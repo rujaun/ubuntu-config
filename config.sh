@@ -23,3 +23,7 @@ cp -r config/wallpapers/* ~/.config/wallpapers/
 cp -r config/vim/.vimrc ~/.vimrc
 cp -r config/xresources/.Xresources ~/.Xresources
 sudo cp -r config/fonts/.local.conf /etc/fonts/.local.conf
+
+
+#cd ./config/i3blocks
+#git clone https://github.com/cytopia/i3blocks-modules
