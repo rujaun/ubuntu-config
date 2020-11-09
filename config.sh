@@ -9,6 +9,7 @@ mkdir -p ~/.config/kitty/
 mkdir -p ~/.config/i3blocks/
 mkdir -p ~/.config/wallpapers/
 mkdir -p ~/.config/gnome-keyring/
+mkdir -p ~/.config/i3blocks-modules/
 
 cp -r config/rofi/* ~/.config/rofi/
 cp -r config/i3/* ~/.config/i3/
@@ -18,6 +19,7 @@ cp -r config/displays/* ~/.config/displays/
 cp -r config/kitty/* ~/.config/kitty/
 cp -r config/i3blocks/* ~/.config/i3blocks/
 cp -r config/wallpapers/* ~/.config/wallpapers/
+cp -r config/i3blocks-modules/* ~/.config/i3blocks-modules/
 
 cp -r config/vim/.vimrc ~/.vimrc
 cp -r config/xresources/.Xresources ~/.Xresources
