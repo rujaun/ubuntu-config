@@ -199,7 +199,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         position top
-        status_command i3blocks
+        status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 }
 
 # Set colors from Xresources
