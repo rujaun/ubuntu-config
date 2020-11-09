@@ -4,7 +4,7 @@ sudo apt install kitty xterm
 sudo apt install xorg xinit --no-install-recommends --no-install-suggests
 
 # Disable touchpad while typing
-sudo tee -a /etc/X11/xorg.conf.d/80-touchpad.conf <<EOF
+sudo tee -a /usr/share/X11/xorg.conf.d/80-touchpad.conf <<EOF
 Section "InputClass"
         Identifier "libinput touchpad catchall"
         MatchIsTouchpad "on"

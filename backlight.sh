@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo tee -a /etc/X11/xorg.conf.d/20-intel.conf <<EOF
+sudo tee -a /usr/share/X11/xorg.conf.d/20-intel.conf <<EOF
 Section "Device"
     Identifier  "Intel Graphics" 
     Driver      "intel"
