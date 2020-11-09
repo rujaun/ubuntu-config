@@ -8,6 +8,7 @@ mkdir -p ~/.config/displays/
 mkdir -p ~/.config/kitty/
 mkdir -p ~/.config/i3blocks/
 mkdir -p ~/.config/wallpapers/
+mkdir -p ~/.config/gnome-keyring/
 
 cp -r config/rofi/* ~/.config/rofi/
 cp -r config/i3/* ~/.config/i3/
@@ -21,6 +22,7 @@ cp -r config/wallpapers/* ~/.config/wallpapers/
 cp -r config/vim/.vimrc ~/.vimrc
 cp -r config/xresources/.Xresources ~/.Xresources
 cp -r config/.bashrc ~/.bashrc
+cp -r config/gnome-keyring/launch.sh ~/.config/gnome-keyring/launch.sh
 sudo cp -r config/fonts/.local.conf /etc/fonts/.local.conf
 
 

@@ -4,5 +4,7 @@ sudo apt install -y vim htop network-manager neofetch arandr pulseaudio pulseaud
 					playerctl lm-sensors xbacklight lxappearance gnome-themes-standard \
 					breeze qt5ct arc-theme bleachbit
 
+sudo apt install gnome-keyring
+
 sudo apt install -y nautilus --no-install-recommends --no-install-suggests
 sudo apt install -y firefox --no-install-recommends --no-install-suggests
