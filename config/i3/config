@@ -202,6 +202,10 @@ bar {
         status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 }
 
+# i3blocks configs
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use
 # from the generated scheme.
