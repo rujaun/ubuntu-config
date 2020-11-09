@@ -16,7 +16,7 @@ PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:${PATH}"
 ### Custom Defines
 ###
 appname="volume"
-format=" {volume}%"
+format=" {volume}%"
 
 
 ###
