@@ -223,6 +223,6 @@ client.background       $bg
 exec_always --no-startup-id killall -q picom
 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/wall9.jpg &
-#exec_always --no-startup-id wal -i ~/Wallpapers/wall1.jpg &
+exec_always --no-startup-id feh --bg-fill ~/.config/wallpapers/wall5.png &
+#exec_always --no-startup-id wal -i ~/Wallpapers/wall5.png &
 exec_always --no-startup-id xrdb -merge ~/.Xresources
