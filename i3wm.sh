@@ -20,7 +20,7 @@ mkdir -p build && cd build/
 make
 sudo make install
 cd ..
-sudo rm -r i3-gaps
+sudo rm -r ./i3-gaps
 
 
 sudo apt install i3lock-fancy --no-install-recommends --no-install-suggests
