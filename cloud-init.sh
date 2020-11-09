@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo dpkg-reconfigure unattended-upgrades
+sudo apt remove unattended-upgrades
+
 dpkg-reconfigure cloud-init
 sudo dpkg-reconfigure cloud-init
 sudo apt-get purge cloud-init
