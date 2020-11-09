@@ -195,22 +195,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        position top
-        colors {
-                background #282c34
-                separator #61afef
-        }
-        font pango:NotoSans Nerd Font Regular 8, pango:FontAwesome 8
-        status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
-}
-
-# i3blocks configs
-# bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
-# bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
-
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use
 # from the generated scheme.
@@ -220,13 +204,40 @@ set_from_resource $fg i3wm.color7 #f0f0f0
 set_from_resource $bg i3wm.color2 #f0f0f0
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg       $bg
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
+#client.focused          $bg     $bg     $fg  $bg       $bg
+#client.focused_inactive $bg     $bg     $fg  $bg       $bg
+#client.unfocused        $bg     $bg     $fg  $bg       $bg
+#client.urgent           $bg     $bg     $fg  $bg       $bg
+#client.placeholder      $bg     $bg     $fg  $bg       $bg
 
-client.background       $bg
+#client.background       $bg
+
+set $bg-color                   #98c379
+set $inactive-bg-color          #61afef
+set $text-color                 #cbced4
+set $inactive-text-color        #979eab
+set $urgent-bg-color            #be5046
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+        position top
+        colors {
+                background      $bg-color
+                separator       $inactive-bg-color
+                statusline      $text-color
+                #                       border                  background              text
+                focused_workspace       $bg-color               $bg-color               $text-color
+                inactive_workspace      $inactive-bg-color      $inactive-bg-color      $inactive-text-color
+                urgent_workspace        $urgent-bg-color        $urgent-bg-color        $text-color
+        }
+        font pango:NotoSans Nerd Font Regular 8, pango:FontAwesome 8
+        status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
+}
+
+# i3blocks configs
+# bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+# bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # Startup
 exec_always --no-startup-id killall -q picom
