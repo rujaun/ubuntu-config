@@ -240,7 +240,7 @@ bar {
 # bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # Startup
-exec_always --no-startup-id killall -q picom &
+#exec_always --no-startup-id killall -q picom
 
 exec sh ~/.config/displays/xrandr.sh &
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf &
