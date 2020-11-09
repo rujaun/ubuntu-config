@@ -20,6 +20,7 @@ cp -r config/wallpapers/* ~/.config/wallpapers/
 
 cp -r config/vim/.vimrc ~/.vimrc
 cp -r config/xresources/.Xresources ~/.Xresources
+cp -r config/.bashrc ~/.bashrc
 sudo cp -r config/fonts/.local.conf /etc/fonts/.local.conf
 
 

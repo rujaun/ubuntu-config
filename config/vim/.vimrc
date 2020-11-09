@@ -12,7 +12,8 @@ let loaded_netrwPlugin = 1
 
 map <C-n> :NERDTreeToggle<CR>
 
-let NERDTreeIgnore=['\.pyc$', '\~$'] "hide .pyc files in nerdtree
+let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
+let NERDTreeShowHidden=1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='one'
 
