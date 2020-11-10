@@ -20,14 +20,14 @@ if [ "$SSHCRED" = "Y" ]; then
 	mkdir -p ~/.config/plasma-workspace/env/
 	
 	echo -e "\nCopying ssh-agent.sh"
-	cp ./ssh-agent.sh ~/.config/plasma-workspace/env/ssh-agent.sh
+	cp ssh-keyring/ssh-agent.sh ~/.config/plasma-workspace/env/ssh-agent.sh
 	chmod u+x ~/.config/plasma-workspace/env/ssh-agent.sh
 
 	echo -e "\nCopying askpass.sh"
-	cp ./askpass.sh ~/.config/plasma-workspace/env/askpass.sh
+	cp ssh-keyring/askpass.sh ~/.config/plasma-workspace/env/askpass.sh
 	chmod u+x ~/.config/plasma-workspace/env/askpass.sh
 
 	echo -e "\nCopying ssh-add.sh"
-	cp ./askpass.sh ~/.config/autostart-scripts/ssh-add.sh
+	cp ssh-keyring/askpass.sh ~/.config/autostart-scripts/ssh-add.sh
 	chmod u+x ~/.config/autostart-scripts/ssh-add.sh
 fi
